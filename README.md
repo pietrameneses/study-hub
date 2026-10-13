@@ -2,8 +2,6 @@
 
 Repositório central dos meus estudos e projetos no curso de Ciência da Computação (UniCEUB, campus Asa Norte).
 
-A ideia é simples: se eu produzi, tem um lugar certo pra guardar. Um repositório, uma estrutura, um link.
-
 **Página publicada:** https://pietrameneses.github.io/study-hub/
 
 ---
