@@ -1,0 +1,92 @@
+:root{
+  --ink:#17212e;
+  --muted:#5c6b7f;
+  --line:#dde4ec;
+  --bg:#f7f9fb;
+  --card:#ffffff;
+  --accent:#1d4e77;
+  --accent-soft:#e8eff6;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  line-height:1.65;
+}
+
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+
+.hero{
+  background:linear-gradient(160deg,#1d4e77,#122f47);
+  color:#fff;
+  padding:72px 0 56px;
+}
+.eyebrow{
+  margin:0 0 6px;
+  font-size:.8rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:#a8c6de;
+}
+.hero h1{margin:0;font-size:2.6rem;letter-spacing:-.02em}
+.lead{margin:12px 0 26px;font-size:1.1rem;color:#d4e3ee;max-width:46ch}
+
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-block;
+  padding:10px 20px;
+  border-radius:8px;
+  background:#fff;
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:600;
+  font-size:.95rem;
+}
+.btn.ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
+
+main{padding:52px 0}
+section{margin-bottom:48px}
+h2{font-size:1.45rem;margin:0 0 14px;letter-spacing:-.01em}
+h3{font-size:1.05rem;margin:10px 0 6px}
+p{margin:0 0 14px;color:#2c3a4b}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:20px 0}
+.card{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:20px;
+}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.num{
+  display:inline-block;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-weight:700;
+  font-size:.8rem;
+  padding:3px 9px;
+  border-radius:20px;
+}
+
+.note{font-size:.95rem;color:var(--muted)}
+code{background:#eef2f7;padding:2px 6px;border-radius:5px;font-size:.88em}
+
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{text-align:left;padding:11px 16px;border-bottom:1px solid var(--line);font-size:.95rem}
+th{background:var(--accent-soft);color:var(--accent);font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+tr:last-child td{border-bottom:none}
+
+ul{padding-left:20px;color:#2c3a4b}
+li{margin-bottom:6px}
+
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}
+footer a{color:var(--accent)}
+
+@media (max-width:600px){
+  .hero{padding:52px 0 42px}
+  .hero h1{font-size:2rem}
+}
