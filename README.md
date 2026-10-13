@@ -4,7 +4,7 @@ Repositório central dos meus estudos e projetos no curso de Ciência da Computa
 
 A ideia é simples: se eu produzi, tem um lugar certo pra guardar. Um repositório, uma estrutura, um link.
 
-🔗 **Página publicada:** https://SEU-USUARIO.github.io/study-hub/
+**Página publicada:** https://pietrameneses.github.io/study-hub/
 
 ---
 
@@ -12,15 +12,15 @@ A ideia é simples: se eu produzi, tem um lugar certo pra guardar. Um repositór
 
 | Pasta | O que guarda |
 |---|---|
-| `01_Apresentacao_e_Perfil/` | Meu perfil acadêmico e currículo |
-| `02_Disciplinas_Atuais/` | Material das disciplinas, agrupado por período |
-| `03_Projetos_e_Certificados/` | Projetos práticos e certificações |
+| `01-perfil` | Meu perfil acadêmico e currículo |
+| `02-disciplinas/` | Material das disciplinas, agrupado por período |
+| `03-projetos-certificacoes` | Projetos práticos e certificações |
 | `docs/` | Código da página publicada no GitHub Pages |
 
 Dentro de cada disciplina, sempre as mesmas duas subpastas:
 
-- `Atividades_e_Entregas/` — trabalhos entregues e avaliações
-- `Anotacoes_e_Resumos/` — material de estudo e anotações de aula
+- `entregas/` — trabalhos entregues e avaliações
+- `anotacoes/` — material de estudo e anotações de aula
 
 ## Disciplinas mapeadas (2026/2)
 
@@ -30,8 +30,8 @@ Dentro de cada disciplina, sempre as mesmas duas subpastas:
 
 ## Padrão de nomenclatura
 
-- Sem acentos, sem cedilha e sem espaços — separação por underline (`_`)
-- Prefixo numérico (`01_`, `02_`, `03_`) para controlar a ordem de exibição
+- Sem acentos, sem cedilha e sem espaços — separação por barra (`-`)
+- Prefixo numérico (`01-`, `02-`, `03-`) para controlar a ordem de exibição
 - Estrutura repetida e previsível em todas as disciplinas
 
 ## Contato
