@@ -90,3 +90,6 @@ footer a{color:var(--accent)}
   .hero{padding:52px 0 42px}
   .hero h1{font-size:2rem}
 }
+
+.hero{margin-bottom:80px}
+main{padding-top:0}
